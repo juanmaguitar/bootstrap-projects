@@ -1,0 +1,187 @@
+/* line 1, ../sass/style.sass */
+header {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769);
+  color: white;
+  min-height: 100px;
+  padding-top: 25px;
+}
+/* line 7, ../sass/style.sass */
+header .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 12, ../sass/style.sass */
+header .form-inline .checkbox {
+  display: block;
+}
+
+/* line 15, ../sass/style.sass */
+.remember {
+  margin-top: 5px !important;
+}
+
+/* line 19, ../sass/style.sass */
+nav .navbar-collapse {
+  padding: 0;
+}
+
+/* line 23, ../sass/style.sass */
+.post-avatar img {
+  width: 128px;
+  margin-bottom: 10px;
+}
+
+/* line 28, ../sass/style.sass */
+.panel-heading {
+  background-image: linear-gradient(#04519b, #044687 60%, #033769) !important;
+  color: white !important;
+}
+
+/* line 32, ../sass/style.sass */
+.wall-options {
+  margin: 5px;
+}
+/* line 34, ../sass/style.sass */
+.wall-options li {
+  padding: 0;
+}
+/* line 36, ../sass/style.sass */
+.wall-options li:nth-last-child(n+2)::after {
+  content: "|";
+}
+/* line 38, ../sass/style.sass */
+.wall-options li a {
+  padding: 0 5px;
+}
+
+/* line 41, ../sass/style.sass */
+.bubble {
+  position: relative;
+  min-height: 65px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+}
+/* line 48, ../sass/style.sass */
+.bubble:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent white;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-top: 15px;
+  left: -15px;
+  top: 20px;
+}
+/* line 60, ../sass/style.sass */
+.bubble:before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #cccccc;
+  display: block;
+  width: 0;
+  z-index: 0;
+  margin-top: 15px;
+  left: -16px;
+  top: 20px;
+}
+
+/* line 73, ../sass/style.sass */
+.comment-form {
+  margin-top: 20px;
+}
+/* line 75, ../sass/style.sass */
+.comment-form .form-group {
+  width: 90%;
+}
+/* line 77, ../sass/style.sass */
+.comment-form .form-group input {
+  width: 100%;
+}
+
+/* line 80, ../sass/style.sass */
+.comment {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  overflow: auto;
+}
+
+/* line 88, ../sass/style.sass */
+.comment-avatar img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+/* line 94, ../sass/style.sass */
+.friends ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+/* line 98, ../sass/style.sass */
+.friends ul li {
+  padding: 5px;
+}
+/* line 100, ../sass/style.sass */
+.friends ul li img {
+  width: 45px;
+  height: 45px;
+}
+
+@media(max-width: 990px) {
+  /* line 107, ../sass/style.sass */
+  header .flex-container {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* line 111, ../sass/style.sass */
+  header form {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+/* line 117, ../sass/style.sass */
+.groups img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 15px;
+}
+/* line 122, ../sass/style.sass */
+.groups .group-item {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #cccccc;
+  overflow: auto;
+}
+/* line 127, ../sass/style.sass */
+.groups .group-item:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* line 132, ../sass/style.sass */
+footer {
+  background: #f4f4f4;
+  height: 90px;
+  color: #04519b;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 30px;
+  border-top: 30px;
+  border-top: 3px solid #04519b;
+}
