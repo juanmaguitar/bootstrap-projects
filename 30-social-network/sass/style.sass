@@ -1,3 +1,6 @@
+@import images
+@import atomic/atomic
+
 header
 	background-image: linear-gradient(#04519b, #044687 60%, #033769)
 	color: #fff
@@ -19,12 +22,6 @@ nav
 	.navbar-collapse
 		padding: 0
 
-.post-avatar
-	img
-		width: 128px
-		margin-bottom: 10px
-
-
 .panel-heading
 	background-image: linear-gradient(#04519b, #044687 60%, #033769) !important
 	color: #FFF !important
@@ -37,6 +34,10 @@ nav
 			content: "|"
 		a
 			padding: 0 5px
+
+.post
+	img.square
+		padding-bottom: 80%
 
 .bubble
 	position: relative
@@ -84,11 +85,12 @@ nav
 	margin: 5px 0
 	overflow: auto
 
-
-.comment-avatar img
-	width: 40px
-	height: 40px
-	margin-right: 5px
+#main-content
+	.comment-avatar
+		img
+			width: 40px
+			height: 40px
+			margin-right: 5px
 
 .friends
 	ul
@@ -114,11 +116,6 @@ nav
 			width: 100%
 
 .groups
-	img
-		width: 80px
-		height: 80px
-		float: left
-		margin-right: 15px
 	.group-item
 		padding-bottom: 10px
 		margin-bottom: 20px
@@ -128,6 +125,47 @@ nav
 			content: ""
 			display: block
 			clear: both
+		img.square
+			padding-bottom: 100%
+			margin-bottom: 10px
+		h4
+			margin-top: 0
+
+aside
+	.groups
+		.group-item
+			img.square
+				padding-bottom: 0
+				width: 80px
+				height: 80px
+				float: left
+				margin-right: 15px
+
+
+
+.members
+	.member-row
+		border-bottom: 1px solid #ccc
+		padding-bottom: 20px
+		margin-bottom: 20px
+	img
+		width: 100%
+		margin-bottom: 5px
+
+
+
+
+@media(min-width:991px)
+	.members
+		.member-row
+			p
+				margin-top: 50px
+
+@media(max-width:766px)
+	nav
+		li
+			padding: 0 10px
+
 
 footer
 	background: #f4f4f4

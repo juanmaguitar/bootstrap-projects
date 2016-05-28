@@ -1,0 +1,104 @@
+/* line 1, ../sass/images.sass */
+.square {
+  text-indent: -20000px;
+  width: 100%;
+  height: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 9, ../sass/images.sass */
+.img_1-1 {
+  background-image: url("https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg");
+}
+
+/* line 11, ../sass/images.sass */
+.img_1-2 {
+  background-image: url("https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg");
+}
+
+/* line 13, ../sass/images.sass */
+.img_1-3 {
+  background-image: url("https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg");
+}
+
+/* line 16, ../sass/images.sass */
+.img_2-1 {
+  background-image: url("https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg");
+}
+
+/* line 18, ../sass/images.sass */
+.img_2-2 {
+  background-image: url("https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg");
+}
+
+/* line 20, ../sass/images.sass */
+.img_2-3 {
+  background-image: url("https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg");
+}
+
+/* line 23, ../sass/images.sass */
+.img_3-1 {
+  background-image: url("https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg");
+}
+
+/* line 25, ../sass/images.sass */
+.img_3-2 {
+  background-image: url("https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg");
+}
+
+/* line 27, ../sass/images.sass */
+.img_3-3 {
+  background-image: url("https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg");
+}
+
+/* line 30, ../sass/images.sass */
+.img-0001 {
+  background-image: url("http://67.media.tumblr.com/1a7526843ce64ca5d8e34be290e1ba03/tumblr_o7utlzT9JQ1st5lhmo1_1280.jpg");
+}
+
+/* line 32, ../sass/images.sass */
+.img-0002 {
+  background-image: url("http://66.media.tumblr.com/c3572600de6664cc89ae2a2507cfa403/tumblr_o7utqdDdj01st5lhmo1_1280.jpg");
+}
+
+/* line 34, ../sass/images.sass */
+.img-0003 {
+  background-image: url("http://66.media.tumblr.com/fb33da1a22e7eebd9e47d909447f6c7c/tumblr_o6xgjpD0cs1st5lhmo1_1280.jpg");
+}
+
+/* line 36, ../sass/images.sass */
+.img-0004 {
+  background-image: url("http://66.media.tumblr.com/fb33da1a22e7eebd9e47d909447f6c7c/tumblr_o6xgjpD0cs1st5lhmo1_1280.jpg");
+}
+
+/* line 38, ../sass/images.sass */
+.img-0005 {
+  background-image: url("http://67.media.tumblr.com/c9b068b0730aa4165e82625fde37a1da/tumblr_o6xedrTwyD1st5lhmo1_1280.jpg");
+}
+
+/* line 40, ../sass/images.sass */
+.img-0006 {
+  background-image: url("http://67.media.tumblr.com/1a7526843ce64ca5d8e34be290e1ba03/tumblr_o7utlzT9JQ1st5lhmo1_1280.jpg");
+}
+
+/* line 42, ../sass/images.sass */
+.img-0007 {
+  background-image: url("http://65.media.tumblr.com/a94e1b5213a966a6a423cc04006fa0a0/tumblr_o7fhbnWwIp1st5lhmo1_75sq.jpg");
+}
+
+/* line 44, ../sass/images.sass */
+.img-0008 {
+  background-image: url("http://67.media.tumblr.com/230c873545e8140696b377c679f16568/tumblr_o6xelvtgon1st5lhmo1_1280.jpg");
+}
+
+/* line 46, ../sass/images.sass */
+.img-0009 {
+  background-image: url("http://66.media.tumblr.com/88bb152a244a4d3259f1029e9cb73adf/tumblr_o6xe80YSx01st5lhmo1_1280.jpg");
+}
+
+/* line 48, ../sass/images.sass */
+.img-0010 {
+  background-image: url("http://67.media.tumblr.com/023f697f6d1554c322ecd3689cc6a5d8/tumblr_o6xeguyODb1st5lhmo1_1280.jpg");
+}

@@ -1,61 +1,1163 @@
-/* line 1, ../sass/style.sass */
+/* line 1, ../sass/images.sass */
+.square {
+  text-indent: -20000px;
+  width: 100%;
+  height: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 9, ../sass/images.sass */
+.img_1-1 {
+  background-image: url("https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg");
+}
+
+/* line 11, ../sass/images.sass */
+.img_1-2 {
+  background-image: url("https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg");
+}
+
+/* line 13, ../sass/images.sass */
+.img_1-3 {
+  background-image: url("https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg");
+}
+
+/* line 16, ../sass/images.sass */
+.img_2-1 {
+  background-image: url("https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg");
+}
+
+/* line 18, ../sass/images.sass */
+.img_2-2 {
+  background-image: url("https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg");
+}
+
+/* line 20, ../sass/images.sass */
+.img_2-3 {
+  background-image: url("https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg");
+}
+
+/* line 23, ../sass/images.sass */
+.img_3-1 {
+  background-image: url("https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg");
+}
+
+/* line 25, ../sass/images.sass */
+.img_3-2 {
+  background-image: url("https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg");
+}
+
+/* line 27, ../sass/images.sass */
+.img_3-3 {
+  background-image: url("https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg");
+}
+
+/* line 30, ../sass/images.sass */
+.img-0001 {
+  background-image: url("http://67.media.tumblr.com/1a7526843ce64ca5d8e34be290e1ba03/tumblr_o7utlzT9JQ1st5lhmo1_1280.jpg");
+}
+
+/* line 32, ../sass/images.sass */
+.img-0002 {
+  background-image: url("http://66.media.tumblr.com/c3572600de6664cc89ae2a2507cfa403/tumblr_o7utqdDdj01st5lhmo1_1280.jpg");
+}
+
+/* line 34, ../sass/images.sass */
+.img-0003 {
+  background-image: url("http://66.media.tumblr.com/fb33da1a22e7eebd9e47d909447f6c7c/tumblr_o6xgjpD0cs1st5lhmo1_1280.jpg");
+}
+
+/* line 36, ../sass/images.sass */
+.img-0004 {
+  background-image: url("http://66.media.tumblr.com/fb33da1a22e7eebd9e47d909447f6c7c/tumblr_o6xgjpD0cs1st5lhmo1_1280.jpg");
+}
+
+/* line 38, ../sass/images.sass */
+.img-0005 {
+  background-image: url("http://67.media.tumblr.com/c9b068b0730aa4165e82625fde37a1da/tumblr_o6xedrTwyD1st5lhmo1_1280.jpg");
+}
+
+/* line 40, ../sass/images.sass */
+.img-0006 {
+  background-image: url("http://67.media.tumblr.com/1a7526843ce64ca5d8e34be290e1ba03/tumblr_o7utlzT9JQ1st5lhmo1_1280.jpg");
+}
+
+/* line 42, ../sass/images.sass */
+.img-0007 {
+  background-image: url("http://65.media.tumblr.com/a94e1b5213a966a6a423cc04006fa0a0/tumblr_o7fhbnWwIp1st5lhmo1_75sq.jpg");
+}
+
+/* line 44, ../sass/images.sass */
+.img-0008 {
+  background-image: url("http://67.media.tumblr.com/230c873545e8140696b377c679f16568/tumblr_o6xelvtgon1st5lhmo1_1280.jpg");
+}
+
+/* line 46, ../sass/images.sass */
+.img-0009 {
+  background-image: url("http://66.media.tumblr.com/88bb152a244a4d3259f1029e9cb73adf/tumblr_o6xe80YSx01st5lhmo1_1280.jpg");
+}
+
+/* line 48, ../sass/images.sass */
+.img-0010 {
+  background-image: url("http://67.media.tumblr.com/023f697f6d1554c322ecd3689cc6a5d8/tumblr_o6xeguyODb1st5lhmo1_1280.jpg");
+}
+
+/* SPACING */
+/* FONTS */
+/* COLORS */
+/* line 1, ../sass/atomic/_backgrounds.scss */
+.bg-n {
+  background: none !important;
+}
+
+/* line 3, ../sass/atomic/_backgrounds.scss */
+.bga-f {
+  background-attachment: fixed !important;
+}
+
+/* line 4, ../sass/atomic/_backgrounds.scss */
+.bga-s {
+  background-attachment: scroll !important;
+}
+
+/* line 6, ../sass/atomic/_backgrounds.scss */
+.bgi-n {
+  background-image: none !important;
+}
+
+/* line 8, ../sass/atomic/_backgrounds.scss */
+.bgr-n {
+  background-repeat: no-repeat !important;
+}
+
+/* line 9, ../sass/atomic/_backgrounds.scss */
+.bgr-rd {
+  background-repeat: round !important;
+}
+
+/* line 10, ../sass/atomic/_backgrounds.scss */
+.bgr-sp {
+  background-repeat: space !important;
+}
+
+/* line 11, ../sass/atomic/_backgrounds.scss */
+.bgr-x {
+  background-repeat: repeat-x !important;
+}
+
+/* line 12, ../sass/atomic/_backgrounds.scss */
+.bgr-y {
+  background-repeat: repeat-y !important;
+}
+
+/* line 1, ../sass/atomic/_borders.scss */
+.bda-n {
+  border-width: 0 !important;
+}
+
+/* line 2, ../sass/atomic/_borders.scss */
+.bdt-n, .bdv-n {
+  border-top-width: 0 !important;
+}
+
+/* line 3, ../sass/atomic/_borders.scss */
+.bdb-n, .bdv-n {
+  border-bottom-width: 0 !important;
+}
+
+/* line 4, ../sass/atomic/_borders.scss */
+.bdr-n, .bdh-n {
+  border-right-width: 0 !important;
+}
+
+/* line 5, ../sass/atomic/_borders.scss */
+.bdl-n, .bdh-n {
+  border-left-width: 0 !important;
+}
+
+/* line 6, ../sass/atomic/_borders.scss */
+.bda-s {
+  border-width: 1px !important;
+}
+
+/* line 7, ../sass/atomic/_borders.scss */
+.bdt-s, .bdv-s {
+  border-top-width: 1px !important;
+}
+
+/* line 8, ../sass/atomic/_borders.scss */
+.bdb-s, .bdv-s {
+  border-bottom-width: 1px !important;
+}
+
+/* line 9, ../sass/atomic/_borders.scss */
+.bdr-s, .bdh-s {
+  border-right-width: 1px !important;
+}
+
+/* line 10, ../sass/atomic/_borders.scss */
+.bdl-s, .bdh-s {
+  border-left-width: 1px !important;
+}
+
+/* line 11, ../sass/atomic/_borders.scss */
+.bda-m {
+  border-width: 0.25em !important;
+}
+
+/* line 12, ../sass/atomic/_borders.scss */
+.bdt-m, .bdv-m {
+  border-top-width: 0.25em !important;
+}
+
+/* line 13, ../sass/atomic/_borders.scss */
+.bdb-m, .bdv-m {
+  border-bottom-width: 0.25em !important;
+}
+
+/* line 14, ../sass/atomic/_borders.scss */
+.bdr-m, .bdh-m {
+  border-right-width: 0.25em !important;
+}
+
+/* line 15, ../sass/atomic/_borders.scss */
+.bdl-m, .bdh-m {
+  border-left-width: 0.25em !important;
+}
+
+/* line 16, ../sass/atomic/_borders.scss */
+.bda-l {
+  border-width: 0.5em !important;
+}
+
+/* line 17, ../sass/atomic/_borders.scss */
+.bdt-l, .bdv-l {
+  border-top-width: 0.5em !important;
+}
+
+/* line 18, ../sass/atomic/_borders.scss */
+.bdb-l, .bdv-l {
+  border-bottom-width: 0.5em !important;
+}
+
+/* line 19, ../sass/atomic/_borders.scss */
+.bdr-l, .bdh-l {
+  border-right-width: 0.5em !important;
+}
+
+/* line 20, ../sass/atomic/_borders.scss */
+.bdl-l, .bdh-l {
+  border-left-width: 0.5em !important;
+}
+
+/* line 21, ../sass/atomic/_borders.scss */
+.bda-xl {
+  border-width: 1em !important;
+}
+
+/* line 22, ../sass/atomic/_borders.scss */
+.bdt-xl, .bdv-xl {
+  border-top-width: 1em !important;
+}
+
+/* line 23, ../sass/atomic/_borders.scss */
+.bdb-xl, .bdv-xl {
+  border-bottom-width: 1em !important;
+}
+
+/* line 24, ../sass/atomic/_borders.scss */
+.bdr-xl, .bdh-xl {
+  border-right-width: 1em !important;
+}
+
+/* line 25, ../sass/atomic/_borders.scss */
+.bdl-xl, .bdh-xl {
+  border-left-width: 1em !important;
+}
+
+/* line 1, ../sass/atomic/_colors.scss */
+.bgc {
+  background-color: #fdfdfd !important;
+}
+
+/* line 2, ../sass/atomic/_colors.scss */
+.bgc-foreground {
+  background-color: #424242 !important;
+}
+
+/* line 3, ../sass/atomic/_colors.scss */
+.bgc-foreground-light {
+  background-color: #9b9b9b !important;
+}
+
+/* line 4, ../sass/atomic/_colors.scss */
+.bgc-foreground-contrast {
+  background-color: #fdfdfd !important;
+}
+
+/* line 5, ../sass/atomic/_colors.scss */
+.bgc-transparent {
+  background-color: transparent !important;
+}
+
+/* line 7, ../sass/atomic/_colors.scss */
+.bgc-primary {
+  background-color: #407c8e !important;
+}
+
+/* line 8, ../sass/atomic/_colors.scss */
+.bgc-secondary {
+  background-color: #3aced1 !important;
+}
+
+/* line 9, ../sass/atomic/_colors.scss */
+.bgc-ok {
+  background-color: #879436 !important;
+}
+
+/* line 10, ../sass/atomic/_colors.scss */
+.bgc-ko {
+  background-color: #b32d20 !important;
+}
+
+/* line 11, ../sass/atomic/_colors.scss */
+.bgc-info {
+  background-color: #1e72a6 !important;
+}
+
+/* line 12, ../sass/atomic/_colors.scss */
+.bgc-warning {
+  background-color: #dfb84f !important;
+}
+
+/* line 17, ../sass/atomic/_colors.scss */
+.c-bg {
+  color: #fdfdfd !important;
+}
+
+/* line 18, ../sass/atomic/_colors.scss */
+.c-bg-foreground {
+  color: #424242 !important;
+}
+
+/* line 19, ../sass/atomic/_colors.scss */
+.c-bg-foreground-light {
+  color: #9b9b9b !important;
+}
+
+/* line 20, ../sass/atomic/_colors.scss */
+.c-bg-foreground-contrast {
+  color: #fdfdfd !important;
+}
+
+/* line 22, ../sass/atomic/_colors.scss */
+.c-primary {
+  color: #407c8e !important;
+}
+
+/* line 23, ../sass/atomic/_colors.scss */
+.c-secondary {
+  color: #3aced1 !important;
+}
+
+/* line 24, ../sass/atomic/_colors.scss */
+.c-ok {
+  color: #879436 !important;
+}
+
+/* line 25, ../sass/atomic/_colors.scss */
+.c-ko {
+  color: #b32d20 !important;
+}
+
+/* line 26, ../sass/atomic/_colors.scss */
+.c-info {
+  color: #1e72a6 !important;
+}
+
+/* line 27, ../sass/atomic/_colors.scss */
+.c-warning {
+  color: #dfb84f !important;
+}
+
+/* line 1, ../sass/atomic/_fonts.scss */
+.fz-xxxl {
+  font-size: 2rem !important;
+}
+
+/* line 2, ../sass/atomic/_fonts.scss */
+.fz-xxl {
+  font-size: 1rem !important;
+}
+
+/* line 3, ../sass/atomic/_fonts.scss */
+.fz-xl {
+  font-size: 1rem !important;
+}
+
+/* line 4, ../sass/atomic/_fonts.scss */
+.fz-l {
+  font-size: 1rem !important;
+}
+
+/* line 5, ../sass/atomic/_fonts.scss */
+.fz-ml {
+  font-size: 1rem !important;
+}
+
+/* line 6, ../sass/atomic/_fonts.scss */
+.fz-m {
+  font-size: 1rem !important;
+}
+
+/* line 7, ../sass/atomic/_fonts.scss */
+.fz {
+  font-size: 1rem !important;
+}
+
+/* line 8, ../sass/atomic/_fonts.scss */
+.fz-s {
+  font-size: 0rem !important;
+}
+
+/* line 9, ../sass/atomic/_fonts.scss */
+.fz-xs {
+  font-size: 0rem !important;
+}
+
+/* line 10, ../sass/atomic/_fonts.scss */
+.fz-xxs {
+  font-size: 0rem !important;
+}
+
+/* line 11, ../sass/atomic/_fonts.scss */
+.fz-xxxs {
+  font-size: 0rem !important;
+}
+
+/* line 12, ../sass/atomic/_fonts.scss */
+.fz-xxxxs {
+  font-size: 0rem !important;
+}
+
+/* line 14, ../sass/atomic/_fonts.scss */
+.fs-n {
+  font-style: normal !important;
+}
+
+/* line 15, ../sass/atomic/_fonts.scss */
+.fs-i {
+  font-style: italic !important;
+}
+
+/* line 17, ../sass/atomic/_fonts.scss */
+.fv-n {
+  font-variant: normal !important;
+}
+
+/* line 18, ../sass/atomic/_fonts.scss */
+.fv-sc {
+  font-variant: small-caps !important;
+}
+
+/* line 20, ../sass/atomic/_fonts.scss */
+.fw-n {
+  font-weight: normal !important;
+}
+
+/* line 21, ../sass/atomic/_fonts.scss */
+.fw-b {
+  font-weight: bold !important;
+}
+
+/* line 24, ../sass/atomic/_fonts.scss */
+.ff-titles {
+  font-family: '"PT Sans Narrow","Arial Narrow", Tahoma, sans-serif' !important;
+}
+
+/* line 25, ../sass/atomic/_fonts.scss */
+.ff-default {
+  font-family: '"Source Sans Pro", Helvetica, Helvetica, Arial, sans-serif' !important;
+}
+
+/* line 1, ../sass/atomic/_lists.scss */
+.lis-n {
+  list-style: none !important;
+}
+
+/* line 3, ../sass/atomic/_lists.scss */
+.lisi-n {
+  list-style-image: none !important;
+}
+
+/* line 5, ../sass/atomic/_lists.scss */
+.list-c {
+  list-style-type: circle !important;
+}
+
+/* line 6, ../sass/atomic/_lists.scss */
+.list-d {
+  list-style-type: disc !important;
+}
+
+/* line 7, ../sass/atomic/_lists.scss */
+.list-dc {
+  list-style-type: decimal !important;
+}
+
+/* line 8, ../sass/atomic/_lists.scss */
+.list-dclz {
+  list-style-type: decimal-leading-zero !important;
+}
+
+/* line 9, ../sass/atomic/_lists.scss */
+.list-lr {
+  list-style-type: lower-roman !important;
+}
+
+/* line 10, ../sass/atomic/_lists.scss */
+.list-n {
+  list-style-type: none !important;
+}
+
+/* line 11, ../sass/atomic/_lists.scss */
+.list-s {
+  list-style-type: square !important;
+}
+
+/* line 12, ../sass/atomic/_lists.scss */
+.list-ur {
+  list-style-type: upper-roman !important;
+}
+
+/* line 1, ../sass/atomic/_margins-paddings.scss */
+.pt-n, .pv-n, .pa-n {
+  padding-top: 0 !important;
+}
+
+/* line 2, ../sass/atomic/_margins-paddings.scss */
+.pt-s, .pv-s, .pa-s {
+  padding-top: 0.25em !important;
+}
+
+/* line 3, ../sass/atomic/_margins-paddings.scss */
+.pt-m, .pv-m, .pa-m {
+  padding-top: 0.5em !important;
+}
+
+/* line 4, ../sass/atomic/_margins-paddings.scss */
+.pt-l, .pv-l, .pa-l {
+  padding-top: 1em !important;
+}
+
+/* line 5, ../sass/atomic/_margins-paddings.scss */
+.pt-xl, .pv-xl, .pa-xl {
+  padding-top: 2em !important;
+}
+
+/* line 6, ../sass/atomic/_margins-paddings.scss */
+.pr-n, .ph-n, .pa-n {
+  padding-right: 0 !important;
+}
+
+/* line 7, ../sass/atomic/_margins-paddings.scss */
+.pr-s, .phs, .pa-s {
+  padding-right: 0.25em !important;
+}
+
+/* line 8, ../sass/atomic/_margins-paddings.scss */
+.pr-m, .ph-m, .pa-m {
+  padding-right: 0.5em !important;
+}
+
+/* line 9, ../sass/atomic/_margins-paddings.scss */
+.pr-l, .ph-l, .pa-l {
+  padding-right: 1em !important;
+}
+
+/* line 10, ../sass/atomic/_margins-paddings.scss */
+.pr-xl, .ph-xl, .pa-xl {
+  padding-right: 2em !important;
+}
+
+/* line 11, ../sass/atomic/_margins-paddings.scss */
+.pb-n, .pv-n, .pa-n {
+  padding-bottom: 0 !important;
+}
+
+/* line 12, ../sass/atomic/_margins-paddings.scss */
+.pb-s, .pv-s, .pa-s {
+  padding-bottom: 0.25em !important;
+}
+
+/* line 13, ../sass/atomic/_margins-paddings.scss */
+.pb-m, .pv-m, .pa-m {
+  padding-bottom: 0.5em !important;
+}
+
+/* line 14, ../sass/atomic/_margins-paddings.scss */
+.pb-l, .pv-l, .pa-l {
+  padding-bottom: 1em !important;
+}
+
+/* line 15, ../sass/atomic/_margins-paddings.scss */
+.pb-xl, .pv-xl, .pa-xl {
+  padding-bottom: 2em !important;
+}
+
+/* line 16, ../sass/atomic/_margins-paddings.scss */
+.pl-n, .ph-n, .pa-n {
+  padding-left: 0 !important;
+}
+
+/* line 17, ../sass/atomic/_margins-paddings.scss */
+.pl-s, .ph-s, .pa-s {
+  padding-left: 0.25em !important;
+}
+
+/* line 18, ../sass/atomic/_margins-paddings.scss */
+.pl-m, .ph-m, .pa-m {
+  padding-left: 0.5em !important;
+}
+
+/* line 19, ../sass/atomic/_margins-paddings.scss */
+.pl-l, .ph-l, .pa-l {
+  padding-left: 1em !important;
+}
+
+/* line 20, ../sass/atomic/_margins-paddings.scss */
+.pl-xl, .ph-xl, .pa-xl {
+  padding-left: 2em !important;
+}
+
+/* line 21, ../sass/atomic/_margins-paddings.scss */
+.mt-n, .mv-n, .ma-n {
+  margin-top: 0 !important;
+}
+
+/* line 22, ../sass/atomic/_margins-paddings.scss */
+.mt-s, .mv-s, .ma-s {
+  margin-top: 0.25em !important;
+}
+
+/* line 23, ../sass/atomic/_margins-paddings.scss */
+.mt-m, .mv-m, .ma-m {
+  margin-top: 0.5em !important;
+}
+
+/* line 24, ../sass/atomic/_margins-paddings.scss */
+.mt-l, .mv-l, .ma-l {
+  margin-top: 1em !important;
+}
+
+/* line 25, ../sass/atomic/_margins-paddings.scss */
+.mt-xl, .mv-xl, .ma-xl {
+  margin-top: 2em !important;
+}
+
+/* line 26, ../sass/atomic/_margins-paddings.scss */
+.mr-n, .mh-n, .ma-n {
+  margin-right: 0 !important;
+}
+
+/* line 27, ../sass/atomic/_margins-paddings.scss */
+.mr-s, .mh-s, .ma-s {
+  margin-right: 0.25em !important;
+}
+
+/* line 28, ../sass/atomic/_margins-paddings.scss */
+.mr-m, .mh-m, .ma-m {
+  margin-right: 0.5em !important;
+}
+
+/* line 29, ../sass/atomic/_margins-paddings.scss */
+.mr-l, .mh-l, .ma-l {
+  margin-right: 1em !important;
+}
+
+/* line 30, ../sass/atomic/_margins-paddings.scss */
+.mr-xl, .mh-xl, .ma-xl {
+  margin-right: 2em !important;
+}
+
+/* line 31, ../sass/atomic/_margins-paddings.scss */
+.mb-n, .mv-n, .ma-n {
+  margin-bottom: 0 !important;
+}
+
+/* line 32, ../sass/atomic/_margins-paddings.scss */
+.mb-s, .mv-s, .ma-s {
+  margin-bottom: 0.25em !important;
+}
+
+/* line 33, ../sass/atomic/_margins-paddings.scss */
+.mb-m, .mv-m, .ma-m {
+  margin-bottom: 0.5em !important;
+}
+
+/* line 34, ../sass/atomic/_margins-paddings.scss */
+.mb-l, .mv-l, .ma-l {
+  margin-bottom: 1em !important;
+}
+
+/* line 35, ../sass/atomic/_margins-paddings.scss */
+.mb-xl, .mv-xl, .ma-xl {
+  margin-bottom: 2em !important;
+}
+
+/* line 36, ../sass/atomic/_margins-paddings.scss */
+.ml-n, .mh-n, .ma-n {
+  margin-left: 0 !important;
+}
+
+/* line 37, ../sass/atomic/_margins-paddings.scss */
+.ml-s, .mh-s, .ma-s {
+  margin-left: 0.25em !important;
+}
+
+/* line 38, ../sass/atomic/_margins-paddings.scss */
+.ml-m, .mh-m, .ma-m {
+  margin-left: 0.5em !important;
+}
+
+/* line 39, ../sass/atomic/_margins-paddings.scss */
+.ml-l, .mh-l, .ma-l {
+  margin-left: 1em !important;
+}
+
+/* line 40, ../sass/atomic/_margins-paddings.scss */
+.ml-xl, .mh-xl, .ma-xl {
+  margin-left: 2em !important;
+}
+
+/* line 1, ../sass/atomic/_texts.scss */
+.ta-c {
+  text-align: center !important;
+}
+
+/* line 2, ../sass/atomic/_texts.scss */
+.ta-j {
+  text-align: justify !important;
+}
+
+/* line 3, ../sass/atomic/_texts.scss */
+.ta-l {
+  text-align: left !important;
+}
+
+/* line 4, ../sass/atomic/_texts.scss */
+.ta-r {
+  text-align: right !important;
+}
+
+/* line 6, ../sass/atomic/_texts.scss */
+.td-l {
+  text-decoration: line-through !important;
+}
+
+/* line 7, ../sass/atomic/_texts.scss */
+.td-n {
+  text-decoration: none !important;
+}
+
+/* line 8, ../sass/atomic/_texts.scss */
+.td-o {
+  text-decoration: overline !important;
+}
+
+/* line 9, ../sass/atomic/_texts.scss */
+.td-u {
+  text-decoration: underline !important;
+}
+
+/* line 11, ../sass/atomic/_texts.scss */
+.ti-h {
+  text-indent: -9999px !important;
+}
+
+/* line 13, ../sass/atomic/_texts.scss */
+.tsh-n {
+  text-shadow: none !important;
+}
+
+/* line 15, ../sass/atomic/_texts.scss */
+.tt-c {
+  text-transform: capitalize !important;
+}
+
+/* line 16, ../sass/atomic/_texts.scss */
+.tt-l {
+  text-transform: lowercase !important;
+}
+
+/* line 17, ../sass/atomic/_texts.scss */
+.tt-n {
+  text-transform: none !important;
+}
+
+/* line 18, ../sass/atomic/_texts.scss */
+.tt-u {
+  text-transform: uppercase !important;
+}
+
+/* line 20, ../sass/atomic/_texts.scss */
+.va-b {
+  vertical-align: bottom !important;
+}
+
+/* line 21, ../sass/atomic/_texts.scss */
+.va-bl {
+  vertical-align: baseline !important;
+}
+
+/* line 22, ../sass/atomic/_texts.scss */
+.va-m {
+  vertical-align: middle !important;
+}
+
+/* line 23, ../sass/atomic/_texts.scss */
+.va-sub {
+  vertical-align: sub !important;
+}
+
+/* line 24, ../sass/atomic/_texts.scss */
+.va-sup {
+  vertical-align: super !important;
+}
+
+/* line 25, ../sass/atomic/_texts.scss */
+.va-t {
+  vertical-align: top !important;
+}
+
+/* line 26, ../sass/atomic/_texts.scss */
+.va-tb {
+  vertical-align: text-bottom !important;
+}
+
+/* line 27, ../sass/atomic/_texts.scss */
+.va-tt {
+  vertical-align: text-top !important;
+}
+
+/* line 29, ../sass/atomic/_texts.scss */
+.whs-n {
+  white-space: normal !important;
+}
+
+/* line 30, ../sass/atomic/_texts.scss */
+.whs-nw {
+  white-space: nowrap !important;
+}
+
+/* line 31, ../sass/atomic/_texts.scss */
+.whs-p {
+  white-space: pre !important;
+}
+
+/* line 32, ../sass/atomic/_texts.scss */
+.whs-pl {
+  white-space: pre-line !important;
+}
+
+/* line 33, ../sass/atomic/_texts.scss */
+.whs-pw {
+  white-space: pre-wrap !important;
+}
+
+/* line 35, ../sass/atomic/_texts.scss */
+.wow-b {
+  word-wrap: break-word !important;
+}
+
+/* line 36, ../sass/atomic/_texts.scss */
+.wow-n {
+  word-wrap: none !important;
+}
+
+/* line 37, ../sass/atomic/_texts.scss */
+.wow-nm {
+  word-wrap: normal !important;
+}
+
+/* line 38, ../sass/atomic/_texts.scss */
+.wow-s {
+  word-wrap: suppress !important;
+}
+
+/* line 39, ../sass/atomic/_texts.scss */
+.wow-u {
+  word-wrap: unrestricted !important;
+}
+
+/* line 1, ../sass/atomic/_visual-formattings.scss */
+.pos-s {
+  position: static !important;
+}
+
+/* line 2, ../sass/atomic/_visual-formattings.scss */
+.pos-a {
+  position: absolute !important;
+}
+
+/* line 3, ../sass/atomic/_visual-formattings.scss */
+.pos-r {
+  position: relative !important;
+}
+
+/* line 4, ../sass/atomic/_visual-formattings.scss */
+.pos-f {
+  position: fixed !important;
+}
+
+/* line 6, ../sass/atomic/_visual-formattings.scss */
+.fl-n {
+  float: none !important;
+}
+
+/* line 7, ../sass/atomic/_visual-formattings.scss */
+.fl-l {
+  float: left !important;
+}
+
+/* line 8, ../sass/atomic/_visual-formattings.scss */
+.fl-r {
+  float: right !important;
+}
+
+/* line 10, ../sass/atomic/_visual-formattings.scss */
+.cl-n {
+  clear: none !important;
+}
+
+/* line 11, ../sass/atomic/_visual-formattings.scss */
+.cl-l {
+  clear: left !important;
+}
+
+/* line 12, ../sass/atomic/_visual-formattings.scss */
+.cl-r {
+  clear: right !important;
+}
+
+/* line 13, ../sass/atomic/_visual-formattings.scss */
+.cl-b {
+  clear: both !important;
+}
+
+/* line 15, ../sass/atomic/_visual-formattings.scss */
+.d-n {
+  display: none !important;
+}
+
+/* line 16, ../sass/atomic/_visual-formattings.scss */
+.d-i {
+  display: inline !important;
+}
+
+/* line 17, ../sass/atomic/_visual-formattings.scss */
+.d-b {
+  display: block !important;
+}
+
+/* line 18, ../sass/atomic/_visual-formattings.scss */
+.d-ib {
+  display: inline-block !important;
+}
+
+/* line 20, ../sass/atomic/_visual-formattings.scss */
+.v-v {
+  visibility: visible !important;
+}
+
+/* line 21, ../sass/atomic/_visual-formattings.scss */
+.v-h {
+  visibility: hidden !important;
+}
+
+/* line 22, ../sass/atomic/_visual-formattings.scss */
+.v-c {
+  visibility: collapse !important;
+}
+
+/* line 24, ../sass/atomic/_visual-formattings.scss */
+.ov-v {
+  overflow: visible !important;
+}
+
+/* line 25, ../sass/atomic/_visual-formattings.scss */
+.ov-h {
+  overflow: hidden !important;
+}
+
+/* line 26, ../sass/atomic/_visual-formattings.scss */
+.ov-s {
+  overflow: scroll !important;
+}
+
+/* line 27, ../sass/atomic/_visual-formattings.scss */
+.ov-a {
+  overflow: auto !important;
+}
+
+/* line 29, ../sass/atomic/_visual-formattings.scss */
+.ovx-v {
+  overflow-x: visible !important;
+}
+
+/* line 30, ../sass/atomic/_visual-formattings.scss */
+.ovx-h {
+  overflow-x: hidden !important;
+}
+
+/* line 31, ../sass/atomic/_visual-formattings.scss */
+.ovx-s {
+  overflow-x: scroll !important;
+}
+
+/* line 32, ../sass/atomic/_visual-formattings.scss */
+.ovx-a {
+  overflow-x: auto !important;
+}
+
+/* line 34, ../sass/atomic/_visual-formattings.scss */
+.ovy-v {
+  overflow-y: visible !important;
+}
+
+/* line 35, ../sass/atomic/_visual-formattings.scss */
+.ovy-h {
+  overflow-y: hidden !important;
+}
+
+/* line 36, ../sass/atomic/_visual-formattings.scss */
+.ovy-s {
+  overflow-y: scroll !important;
+}
+
+/* line 37, ../sass/atomic/_visual-formattings.scss */
+.ovy-a {
+  overflow-y: auto !important;
+}
+
+/* line 39, ../sass/atomic/_visual-formattings.scss */
+.rsz-n {
+  resize: none !important;
+}
+
+/* line 40, ../sass/atomic/_visual-formattings.scss */
+.rsz-b {
+  resize: both !important;
+}
+
+/* line 41, ../sass/atomic/_visual-formattings.scss */
+.rsz-h {
+  resize: horizontal !important;
+}
+
+/* line 42, ../sass/atomic/_visual-formattings.scss */
+.rsz-v {
+  resize: vertical !important;
+}
+
+/* line 44, ../sass/atomic/_visual-formattings.scss */
+.cur-a {
+  cursor: auto !important;
+}
+
+/* line 45, ../sass/atomic/_visual-formattings.scss */
+.cur-d {
+  cursor: default !important;
+}
+
+/* line 46, ../sass/atomic/_visual-formattings.scss */
+.cur-c {
+  cursor: crosshair !important;
+}
+
+/* line 47, ../sass/atomic/_visual-formattings.scss */
+.cur-ha {
+  cursor: hand !important;
+}
+
+/* line 48, ../sass/atomic/_visual-formattings.scss */
+.cur-he {
+  cursor: help !important;
+}
+
+/* line 49, ../sass/atomic/_visual-formattings.scss */
+.cur-m {
+  cursor: move !important;
+}
+
+/* line 50, ../sass/atomic/_visual-formattings.scss */
+.cur-p {
+  cursor: pointer !important;
+}
+
+/* line 51, ../sass/atomic/_visual-formattings.scss */
+.cur-t {
+  cursor: text !important;
+}
+
+/* line 4, ../sass/style.sass */
 header {
   background-image: linear-gradient(#04519b, #044687 60%, #033769);
   color: white;
   min-height: 100px;
   padding-top: 25px;
 }
-/* line 7, ../sass/style.sass */
+/* line 10, ../sass/style.sass */
 header .flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* line 12, ../sass/style.sass */
+/* line 15, ../sass/style.sass */
 header .form-inline .checkbox {
   display: block;
 }
 
-/* line 15, ../sass/style.sass */
+/* line 18, ../sass/style.sass */
 .remember {
   margin-top: 5px !important;
 }
 
-/* line 19, ../sass/style.sass */
+/* line 22, ../sass/style.sass */
 nav .navbar-collapse {
   padding: 0;
 }
 
-/* line 23, ../sass/style.sass */
-.post-avatar img {
-  width: 128px;
-  margin-bottom: 10px;
-}
-
-/* line 28, ../sass/style.sass */
+/* line 25, ../sass/style.sass */
 .panel-heading {
   background-image: linear-gradient(#04519b, #044687 60%, #033769) !important;
   color: white !important;
 }
 
-/* line 32, ../sass/style.sass */
+/* line 29, ../sass/style.sass */
 .wall-options {
   margin: 5px;
 }
-/* line 34, ../sass/style.sass */
+/* line 31, ../sass/style.sass */
 .wall-options li {
   padding: 0;
 }
-/* line 36, ../sass/style.sass */
+/* line 33, ../sass/style.sass */
 .wall-options li:nth-last-child(n+2)::after {
   content: "|";
 }
-/* line 38, ../sass/style.sass */
+/* line 35, ../sass/style.sass */
 .wall-options li a {
   padding: 0 5px;
 }
 
-/* line 41, ../sass/style.sass */
+/* line 39, ../sass/style.sass */
+.post img.square {
+  padding-bottom: 80%;
+}
+
+/* line 42, ../sass/style.sass */
 .bubble {
   position: relative;
   min-height: 65px;
@@ -64,7 +1166,7 @@ nav .navbar-collapse {
   border-radius: 10px;
   border: 1px solid #cccccc;
 }
-/* line 48, ../sass/style.sass */
+/* line 49, ../sass/style.sass */
 .bubble:after {
   content: "";
   position: absolute;
@@ -78,7 +1180,7 @@ nav .navbar-collapse {
   left: -15px;
   top: 20px;
 }
-/* line 60, ../sass/style.sass */
+/* line 61, ../sass/style.sass */
 .bubble:before {
   content: "";
   position: absolute;
@@ -93,20 +1195,20 @@ nav .navbar-collapse {
   top: 20px;
 }
 
-/* line 73, ../sass/style.sass */
+/* line 74, ../sass/style.sass */
 .comment-form {
   margin-top: 20px;
 }
-/* line 75, ../sass/style.sass */
+/* line 76, ../sass/style.sass */
 .comment-form .form-group {
   width: 90%;
 }
-/* line 77, ../sass/style.sass */
+/* line 78, ../sass/style.sass */
 .comment-form .form-group input {
   width: 100%;
 }
 
-/* line 80, ../sass/style.sass */
+/* line 81, ../sass/style.sass */
 .comment {
   border: 1px solid #cccccc;
   border-radius: 5px;
@@ -115,36 +1217,36 @@ nav .navbar-collapse {
   overflow: auto;
 }
 
-/* line 88, ../sass/style.sass */
-.comment-avatar img {
+/* line 90, ../sass/style.sass */
+#main-content .comment-avatar img {
   width: 40px;
   height: 40px;
   margin-right: 5px;
 }
 
-/* line 94, ../sass/style.sass */
+/* line 96, ../sass/style.sass */
 .friends ul {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
 }
-/* line 98, ../sass/style.sass */
+/* line 100, ../sass/style.sass */
 .friends ul li {
   padding: 5px;
 }
-/* line 100, ../sass/style.sass */
+/* line 102, ../sass/style.sass */
 .friends ul li img {
   width: 45px;
   height: 45px;
 }
 
 @media(max-width: 990px) {
-  /* line 107, ../sass/style.sass */
+  /* line 109, ../sass/style.sass */
   header .flex-container {
     flex-direction: column;
     justify-content: space-around;
   }
-  /* line 111, ../sass/style.sass */
+  /* line 113, ../sass/style.sass */
   header form {
     text-align: center;
     padding: 20px;
@@ -152,28 +1254,65 @@ nav .navbar-collapse {
   }
 }
 
-/* line 117, ../sass/style.sass */
-.groups img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 15px;
-}
-/* line 122, ../sass/style.sass */
+/* line 119, ../sass/style.sass */
 .groups .group-item {
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 1px solid #cccccc;
   overflow: auto;
 }
-/* line 127, ../sass/style.sass */
+/* line 124, ../sass/style.sass */
 .groups .group-item:after {
   content: "";
   display: block;
   clear: both;
 }
+/* line 128, ../sass/style.sass */
+.groups .group-item img.square {
+  padding-bottom: 100%;
+  margin-bottom: 10px;
+}
+/* line 131, ../sass/style.sass */
+.groups .group-item h4 {
+  margin-top: 0;
+}
 
-/* line 132, ../sass/style.sass */
+/* line 137, ../sass/style.sass */
+aside .groups .group-item img.square {
+  padding-bottom: 0;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 147, ../sass/style.sass */
+.members .member-row {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+/* line 151, ../sass/style.sass */
+.members img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+@media(min-width:991px) {
+  /* line 161, ../sass/style.sass */
+  .members .member-row p {
+    margin-top: 50px;
+  }
+}
+
+@media(max-width:766px) {
+  /* line 166, ../sass/style.sass */
+  nav li {
+    padding: 0 10px;
+  }
+}
+
+/* line 170, ../sass/style.sass */
 footer {
   background: #f4f4f4;
   height: 90px;
