@@ -1,104 +1,111 @@
 /* line 1, ../sass/images.sass */
+.frame {
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+/* line 5, ../sass/images.sass */
 .square {
   text-indent: -20000px;
   width: 100%;
   height: 0;
+  padding-bottom: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* line 9, ../sass/images.sass */
+/* line 14, ../sass/images.sass */
 .img_1-1 {
   background-image: url("https://farm4.staticflickr.com/3766/12953056854_b8cdf14f21.jpg");
 }
 
-/* line 11, ../sass/images.sass */
+/* line 16, ../sass/images.sass */
 .img_1-2 {
   background-image: url("https://farm7.staticflickr.com/6092/6227418584_d5883b0948.jpg");
 }
 
-/* line 13, ../sass/images.sass */
+/* line 18, ../sass/images.sass */
 .img_1-3 {
   background-image: url("https://farm8.staticflickr.com/7187/6895047173_d4b1a0d798.jpg");
 }
 
-/* line 16, ../sass/images.sass */
+/* line 21, ../sass/images.sass */
 .img_2-1 {
   background-image: url("https://farm8.staticflickr.com/7163/6822904141_50277565c3.jpg");
 }
 
-/* line 18, ../sass/images.sass */
+/* line 23, ../sass/images.sass */
 .img_2-2 {
   background-image: url("https://farm7.staticflickr.com/6139/5986939269_10721b8017.jpg");
 }
 
-/* line 20, ../sass/images.sass */
+/* line 25, ../sass/images.sass */
 .img_2-3 {
   background-image: url("https://farm4.staticflickr.com/3165/5733278274_2626612c70.jpg");
 }
 
-/* line 23, ../sass/images.sass */
+/* line 28, ../sass/images.sass */
 .img_3-1 {
   background-image: url("https://farm9.staticflickr.com/8429/7862595906_8f953fd25b.jpg");
 }
 
-/* line 25, ../sass/images.sass */
+/* line 30, ../sass/images.sass */
 .img_3-2 {
   background-image: url("https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg");
 }
 
-/* line 27, ../sass/images.sass */
+/* line 32, ../sass/images.sass */
 .img_3-3 {
   background-image: url("https://farm4.staticflickr.com/3771/13199704015_72aa535bd7.jpg");
 }
 
-/* line 30, ../sass/images.sass */
+/* line 35, ../sass/images.sass */
 .img-0001 {
   background-image: url("http://67.media.tumblr.com/1a7526843ce64ca5d8e34be290e1ba03/tumblr_o7utlzT9JQ1st5lhmo1_1280.jpg");
 }
 
-/* line 32, ../sass/images.sass */
+/* line 37, ../sass/images.sass */
 .img-0002 {
   background-image: url("http://66.media.tumblr.com/c3572600de6664cc89ae2a2507cfa403/tumblr_o7utqdDdj01st5lhmo1_1280.jpg");
 }
 
-/* line 34, ../sass/images.sass */
+/* line 39, ../sass/images.sass */
 .img-0003 {
   background-image: url("http://66.media.tumblr.com/fb33da1a22e7eebd9e47d909447f6c7c/tumblr_o6xgjpD0cs1st5lhmo1_1280.jpg");
 }
 
-/* line 36, ../sass/images.sass */
+/* line 41, ../sass/images.sass */
 .img-0004 {
   background-image: url("http://66.media.tumblr.com/fb33da1a22e7eebd9e47d909447f6c7c/tumblr_o6xgjpD0cs1st5lhmo1_1280.jpg");
 }
 
-/* line 38, ../sass/images.sass */
+/* line 43, ../sass/images.sass */
 .img-0005 {
   background-image: url("http://67.media.tumblr.com/c9b068b0730aa4165e82625fde37a1da/tumblr_o6xedrTwyD1st5lhmo1_1280.jpg");
 }
 
-/* line 40, ../sass/images.sass */
+/* line 45, ../sass/images.sass */
 .img-0006 {
   background-image: url("http://67.media.tumblr.com/1a7526843ce64ca5d8e34be290e1ba03/tumblr_o7utlzT9JQ1st5lhmo1_1280.jpg");
 }
 
-/* line 42, ../sass/images.sass */
+/* line 47, ../sass/images.sass */
 .img-0007 {
   background-image: url("http://65.media.tumblr.com/a94e1b5213a966a6a423cc04006fa0a0/tumblr_o7fhbnWwIp1st5lhmo1_75sq.jpg");
 }
 
-/* line 44, ../sass/images.sass */
+/* line 49, ../sass/images.sass */
 .img-0008 {
   background-image: url("http://67.media.tumblr.com/230c873545e8140696b377c679f16568/tumblr_o6xelvtgon1st5lhmo1_1280.jpg");
 }
 
-/* line 46, ../sass/images.sass */
+/* line 51, ../sass/images.sass */
 .img-0009 {
   background-image: url("http://66.media.tumblr.com/88bb152a244a4d3259f1029e9cb73adf/tumblr_o6xe80YSx01st5lhmo1_1280.jpg");
 }
 
-/* line 48, ../sass/images.sass */
+/* line 53, ../sass/images.sass */
 .img-0010 {
   background-image: url("http://67.media.tumblr.com/023f697f6d1554c322ecd3689cc6a5d8/tumblr_o6xeguyODb1st5lhmo1_1280.jpg");
 }
@@ -1152,12 +1159,13 @@ nav .navbar-collapse {
   padding: 0 5px;
 }
 
-/* line 39, ../sass/style.sass */
-.post img.square {
-  padding-bottom: 80%;
+/* line 40, ../sass/style.sass */
+#main-content .post img.square {
+  padding-bottom: 75%;
+  margin-bottom: 10px;
 }
 
-/* line 42, ../sass/style.sass */
+/* line 44, ../sass/style.sass */
 .bubble {
   position: relative;
   min-height: 65px;
@@ -1166,7 +1174,7 @@ nav .navbar-collapse {
   border-radius: 10px;
   border: 1px solid #cccccc;
 }
-/* line 49, ../sass/style.sass */
+/* line 51, ../sass/style.sass */
 .bubble:after {
   content: "";
   position: absolute;
@@ -1180,7 +1188,7 @@ nav .navbar-collapse {
   left: -15px;
   top: 20px;
 }
-/* line 61, ../sass/style.sass */
+/* line 63, ../sass/style.sass */
 .bubble:before {
   content: "";
   position: absolute;
@@ -1195,20 +1203,20 @@ nav .navbar-collapse {
   top: 20px;
 }
 
-/* line 74, ../sass/style.sass */
+/* line 76, ../sass/style.sass */
 .comment-form {
   margin-top: 20px;
 }
-/* line 76, ../sass/style.sass */
+/* line 78, ../sass/style.sass */
 .comment-form .form-group {
   width: 90%;
 }
-/* line 78, ../sass/style.sass */
+/* line 80, ../sass/style.sass */
 .comment-form .form-group input {
   width: 100%;
 }
 
-/* line 81, ../sass/style.sass */
+/* line 83, ../sass/style.sass */
 .comment {
   border: 1px solid #cccccc;
   border-radius: 5px;
@@ -1217,36 +1225,36 @@ nav .navbar-collapse {
   overflow: auto;
 }
 
-/* line 90, ../sass/style.sass */
+/* line 92, ../sass/style.sass */
 #main-content .comment-avatar img {
   width: 40px;
   height: 40px;
   margin-right: 5px;
 }
 
-/* line 96, ../sass/style.sass */
+/* line 98, ../sass/style.sass */
 .friends ul {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
 }
-/* line 100, ../sass/style.sass */
+/* line 102, ../sass/style.sass */
 .friends ul li {
   padding: 5px;
 }
-/* line 102, ../sass/style.sass */
+/* line 104, ../sass/style.sass */
 .friends ul li img {
   width: 45px;
   height: 45px;
 }
 
 @media(max-width: 990px) {
-  /* line 109, ../sass/style.sass */
+  /* line 111, ../sass/style.sass */
   header .flex-container {
     flex-direction: column;
     justify-content: space-around;
   }
-  /* line 113, ../sass/style.sass */
+  /* line 115, ../sass/style.sass */
   header form {
     text-align: center;
     padding: 20px;
@@ -1254,65 +1262,99 @@ nav .navbar-collapse {
   }
 }
 
-/* line 119, ../sass/style.sass */
+/* line 121, ../sass/style.sass */
 .groups .group-item {
   padding-bottom: 10px;
   margin-bottom: 20px;
   border-bottom: 1px solid #cccccc;
   overflow: auto;
 }
-/* line 124, ../sass/style.sass */
+/* line 126, ../sass/style.sass */
 .groups .group-item:after {
   content: "";
   display: block;
   clear: both;
 }
-/* line 128, ../sass/style.sass */
-.groups .group-item img.square {
-  padding-bottom: 100%;
+
+/* line 132, ../sass/style.sass */
+#main-content .frame {
+  display: block;
   margin-bottom: 10px;
 }
-/* line 131, ../sass/style.sass */
-.groups .group-item h4 {
-  margin-top: 0;
-}
 
-/* line 137, ../sass/style.sass */
+/* line 141, ../sass/style.sass */
+aside .groups .group-item .frame {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-right: 10px;
+}
+/* line 147, ../sass/style.sass */
 aside .groups .group-item img.square {
-  padding-bottom: 0;
   width: 80px;
   height: 80px;
-  float: left;
-  margin-right: 15px;
 }
 
-/* line 147, ../sass/style.sass */
+/* line 154, ../sass/style.sass */
 .members .member-row {
   border-bottom: 1px solid #cccccc;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-/* line 151, ../sass/style.sass */
+/* line 158, ../sass/style.sass */
 .members img {
   width: 100%;
   margin-bottom: 5px;
 }
 
+/* line 164, ../sass/style.sass */
+.profile ul {
+  margin-top: 30px;
+}
+/* line 166, ../sass/style.sass */
+.profile ul li {
+  list-style: none;
+  line-height: 1.9em;
+}
+
+/* line 170, ../sass/style.sass */
+.photos {
+  margin: 0;
+  padding: 0;
+}
+/* line 173, ../sass/style.sass */
+.photos li {
+  list-style: none;
+  float: left;
+  margin: 5px;
+  width: 23%;
+}
+/* line 178, ../sass/style.sass */
+.photos img {
+  width: 100%;
+}
+
 @media(min-width:991px) {
-  /* line 161, ../sass/style.sass */
+  /* line 183, ../sass/style.sass */
+  h4 {
+    margin-top: 0;
+  }
+
+  /* line 187, ../sass/style.sass */
   .members .member-row p {
     margin-top: 50px;
   }
 }
 
 @media(max-width:766px) {
-  /* line 166, ../sass/style.sass */
+  /* line 192, ../sass/style.sass */
   nav li {
     padding: 0 10px;
   }
 }
 
-/* line 170, ../sass/style.sass */
+/* line 196, ../sass/style.sass */
 footer {
   background: #f4f4f4;
   height: 90px;

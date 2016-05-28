@@ -35,9 +35,11 @@ nav
 		a
 			padding: 0 5px
 
-.post
-	img.square
-		padding-bottom: 80%
+#main-content
+	.post
+		img.square
+			padding-bottom: 75%
+			margin-bottom: 10px
 
 .bubble
 	position: relative
@@ -125,21 +127,26 @@ nav
 			content: ""
 			display: block
 			clear: both
+
+#main-content
+	.frame
+		display: block
+		margin-bottom: 10px
 		img.square
-			padding-bottom: 100%
-			margin-bottom: 10px
-		h4
-			margin-top: 0
+
 
 aside
 	.groups
 		.group-item
+			.frame
+				display: inline-block
+				padding: 5px
+				border: 1px solid #cccccc
+				float: left
+				margin-right: 10px
 			img.square
-				padding-bottom: 0
 				width: 80px
 				height: 80px
-				float: left
-				margin-right: 15px
 
 
 
@@ -153,9 +160,28 @@ aside
 		margin-bottom: 5px
 
 
+.profile
+	ul
+		margin-top: 30px
+		li
+			list-style: none
+			line-height: 1.9em
+
+.photos
+	margin: 0
+	padding: 0
+	li
+		list-style: none
+		float: left
+		margin: 5px
+		width: 23%
+	img
+		width: 100%
 
 
 @media(min-width:991px)
+	h4
+		margin-top: 0
 	.members
 		.member-row
 			p

@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Groups: Dobble Social Network</title>
+	<title>Photos: Dobble Social Network</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap-theme.css">
+	<link rel="stylesheet" href="css/ekko-lightbox.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 
 	<!-- custom -->
@@ -63,8 +64,8 @@
 		      <ul class="nav navbar-nav">
 		        <li><a href="index.html">Home</a></li>
 		        <li><a href="members.html">Members</a></li>
-		        <li class="active"><a href="groups.html">Groups</a></li>
-		        <li><a href="photos.html">Photos</a></li>
+		        <li><a href="groups.html">Groups</a></li>
+		        <li class="active"><a href="photos.html">Photos</a></li>
 		        <li><a href="profile.html">Profile</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
@@ -77,45 +78,16 @@
 			<div class="container">
 				<div class="row">
 					<section id="main-content" class="col-md-8">
-						<div class="groups">
-							<h1 class="page-header">Groups</h1>
-							<!-- @begin group-item -->
-							<div class="group-item row">
-								<div class="col-md-3">
-									<a class="frame" href="#"><img class="img_1-1 square" src="" alt=""></a>
-									<a href="#" class="btn btn-default btn-block">Join Group</a>
-								</div>
-								<div class="col-md-9">
-									<h4><a href="#">Sample Group 1</a></h4>
-									<p>bullfighter halibiotic labellum preoperator alfalfa chantlate candlemaking birdie ulmous polynemoid overpending symmetrophobia ingoing bastite underbasal vocationally Sabbathbreaking oversoothing hypotrachelium fitroot futtock Hindu avenous unscarce</p>
-								</div>
-							</div>
-							<!-- @end group-item -->
-							<!-- @begin group-item -->
-							<div class="group-item row">
-								<div class="col-md-3">
-									<a class="frame" href="#"><img class="img_1-2 square" src="" alt=""></a>
-									<a href="#" class="btn btn-default btn-block">Join Group</a>
-								</div>
-								<div class="col-md-9">
-									<h4><a href="#">Sample Group 1</a></h4>
-									<p>bullfighter halibiotic labellum preoperator alfalfa chantlate candlemaking birdie ulmous polynemoid overpending symmetrophobia ingoing bastite underbasal vocationally Sabbathbreaking oversoothing hypotrachelium fitroot futtock Hindu avenous unscarce</p>
-								</div>
-							</div>
-							<!-- @end group-item -->
-							<!-- @begin group-item -->
-							<div class="group-item row">
-								<div class="col-md-3">
-									<a class="frame" href="#"><img class="img_1-3 square" src="" alt=""></a>
-									<a href="#" class="btn btn-default btn-block">Join Group</a>
-								</div>
-								<div class="col-md-9">
-									<h4><a href="#">Sample Group 1</a></h4>
-									<p>bullfighter halibiotic labellum preoperator alfalfa chantlate candlemaking birdie ulmous polynemoid overpending symmetrophobia ingoing bastite underbasal vocationally Sabbathbreaking oversoothing hypotrachelium fitroot futtock Hindu avenous unscarce</p>
-								</div>
-							</div>
-							<!-- @end group-item -->
-						</div>
+						<h1 class="page-header">Photos</h1>
+						<ul class="photos gallery-parent">
+							<li><a href="img/sample1.jpg" data-title="Image One" data-footer="This is image1" data-toggle="lightbox" data-gallery="my-gallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image1"><img src="img/sample1.jpg" class="img-thumbnail" alt=""></a></li>
+							<li><a href="img/sample2.jpg" data-title="Image One" data-footer="This is image2" data-toggle="lightbox" data-gallery="my-gallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image1"><img src="img/sample2.jpg" class="img-thumbnail" alt=""></a></li>
+							<li><a href="img/sample3.jpg" data-title="Image One" data-footer="This is image3" data-toggle="lightbox" data-gallery="my-gallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image1"><img src="img/sample3.jpg" class="img-thumbnail" alt=""></a></li>
+							<li><a href="img/sample4.jpg" data-title="Image One" data-footer="This is image4" data-toggle="lightbox" data-gallery="my-gallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image1"><img src="img/sample4.jpg" class="img-thumbnail" alt=""></a></li>
+							<li><a href="img/sample5.jpg" data-title="Image One" data-footer="This is image5" data-toggle="lightbox" data-gallery="my-gallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image1"><img src="img/sample5.jpg" class="img-thumbnail" alt=""></a></li>
+							<li><a href="img/sample6.jpg" data-title="Image One" data-footer="This is image6" data-toggle="lightbox" data-gallery="my-gallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="This is image1"><img src="img/sample6.jpg" class="img-thumbnail" alt=""></a></li>
+
+						</ul>
 					</section>
 					<aside class="col-md-4">
 						<!-- @begin friends -->
@@ -187,5 +159,16 @@
 
 	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script src="js/ekko-lightbox.js"></script>
+	<script>
+
+		$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+			event.preventDefault();
+			$(this).ekkoLightbox();
+		});
+
+		$('[data-hover="tooltip"]').tooltip()
+
+	</script>
 </body>
 </html>
